@@ -1,0 +1,2 @@
+{$DEFINE CDY_GUI}
+{$UNDEF  CDY_SRV}
