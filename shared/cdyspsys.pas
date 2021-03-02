@@ -154,6 +154,8 @@ begin
       // calculate limits of the nfk
       nfk30 := nfk[i] * 0.3;
       nfk80 := nfk[i] * 0.8;
+      nfk30 := nfk[i] * 0.6;
+      nfk80 := nfk[i] * 0.9;
 
       // auto irrigate the soil when soil mositure falls below 30 nfk+pwp
       if (bofeu[i] + rain_per_lay) <= nfk30 + sprfl.pwp[i]
